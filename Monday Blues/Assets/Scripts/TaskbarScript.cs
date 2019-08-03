@@ -14,7 +14,7 @@ public class TaskbarScript : MonoBehaviour
     public void SetFrontWindow(int _windowNum)
     {
         
-        if (_windowNum < 0 || _windowNum > windows.Count)
+        if (_windowNum < 0 || _windowNum > windows.Count - 1)
         {
 
             Debug.LogError("Invalid Window Num");
