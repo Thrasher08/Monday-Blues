@@ -20,12 +20,13 @@ public class Typing : MonoBehaviour
     {
         index = 0;
         rLength = response.Length;
-        ableToType = false;
+        ableToType = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(ableToType);
         if (ableToType)
         {
             if (Input.anyKeyDown)
