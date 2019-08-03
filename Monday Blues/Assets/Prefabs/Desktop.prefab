@@ -273,7 +273,6 @@ MonoBehaviour:
   desktop: {fileID: 0}
   windows:
   - {fileID: 0}
-  - {fileID: 0}
   selectedWindow: 1
 --- !u!1 &6784937181681146991
 GameObject:

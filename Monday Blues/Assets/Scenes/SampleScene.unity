@@ -269,6 +269,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!223 &1153779788 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5696069047325217114, guid: 94e7b9c1c21bb5c4f9e374fc55a20e15,
+    type: 3}
+  m_PrefabInstance: {fileID: 5696069048319580438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5696069048319580438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -509,12 +515,7 @@ PrefabInstance:
         type: 3}
       propertyPath: windows.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6784937181099279257, guid: 55d33b5d1a9340e43b1413a79f85d29b,
-        type: 3}
-      propertyPath: windows.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1153779788}
     - target: {fileID: 6784937180990214781, guid: 55d33b5d1a9340e43b1413a79f85d29b,
         type: 3}
       propertyPath: m_AnchorMin.y
