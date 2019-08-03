@@ -23,6 +23,9 @@ public class Window_Download : MonoBehaviour
 
     public Text progressText;
 
+    public AudioSource audio;
+    public AudioClip[] clips;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +55,7 @@ public class Window_Download : MonoBehaviour
             {
                 failing = false;
                 downloadProgress = 0;
+                audio.PlayOneShot(clips[1]);
                 delayDownload = 0;
             }
         }
@@ -69,6 +73,7 @@ public class Window_Download : MonoBehaviour
         if (delayDownload >= delayWindow)
         {
             downloading = false;
+            audio.PlayOneShot(clips[0]);
             failing = true;
         }
     }
