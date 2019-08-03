@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spam Filter Window
       objectReference: {fileID: 0}
+    - target: {fileID: 7953240445379157274, guid: 13d36c91ffdfc4044bbed6ed48076081,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7953240445379157278, guid: 13d36c91ffdfc4044bbed6ed48076081,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -412,6 +417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Message Window
       objectReference: {fileID: 0}
+    - target: {fileID: 7953240445379157274, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7953240445379157278, guid: e19379423e1ff404c8c33cec6bfde3df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -536,6 +546,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Email Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953240445379157274, guid: 09039ff230220eb4caaffcecef161e69,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7953240445379157278, guid: 09039ff230220eb4caaffcecef161e69,
         type: 3}
@@ -668,6 +683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Download Window
       objectReference: {fileID: 0}
+    - target: {fileID: 5696069047325217119, guid: 94e7b9c1c21bb5c4f9e374fc55a20e15,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5696069047325217115, guid: 94e7b9c1c21bb5c4f9e374fc55a20e15,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -786,6 +806,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784937181099279258, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6784937181099279333, guid: 55d33b5d1a9340e43b1413a79f85d29b,
         type: 3}
@@ -1182,6 +1207,16 @@ PrefabInstance:
       propertyPath: m_Color.g
       value: 0.31205654
       objectReference: {fileID: 0}
+    - target: {fileID: 6784937181099279335, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784937181099279335, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55d33b5d1a9340e43b1413a79f85d29b, type: 3}
 --- !u!1001 &7464228450681786787
@@ -1195,6 +1230,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Car Game Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953240445379157274, guid: 2d813e9b91cdb3844a6af2cac1162974,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953240445379157279, guid: 2d813e9b91cdb3844a6af2cac1162974,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7953240445379157278, guid: 2d813e9b91cdb3844a6af2cac1162974,
         type: 3}
@@ -1299,6 +1344,16 @@ PrefabInstance:
     - target: {fileID: 7953240445379157278, guid: 2d813e9b91cdb3844a6af2cac1162974,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953240445379157272, guid: 2d813e9b91cdb3844a6af2cac1162974,
+        type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5380506488439225350, guid: 2d813e9b91cdb3844a6af2cac1162974,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
