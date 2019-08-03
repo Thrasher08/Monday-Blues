@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class CarGameController : MonoBehaviour
 {
+    public int windowIndex;
+    public WindowManager windowManager;
+
     public bool isRunning;
 
     public float waitTime;
@@ -62,6 +65,8 @@ public class CarGameController : MonoBehaviour
         enemyCleanup.DestroyCars();
 
         failedScreen.SetActive(true);
+
+        windowManager.SetFrontWindow(windowIndex);
 
         waitTimer = waitTime;
 

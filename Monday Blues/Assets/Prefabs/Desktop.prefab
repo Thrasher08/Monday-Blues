@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 6784937181099279334}
   - component: {fileID: 6784937181099279335}
   - component: {fileID: 6784937181099279256}
-  - component: {fileID: 6784937181099279257}
+  - component: {fileID: 6486006838406135611}
   m_Layer: 5
   m_Name: Desktop
   m_TagString: Untagged
@@ -231,11 +231,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6784937181099279257
+--- !u!114 &6486006838406135611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,13 +267,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6784937181099279258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3128cbe00cbcd1a47a277928de974b0e, type: 3}
+  m_Script: {fileID: 11500000, guid: 60a6568d5bfdea84b809771db0e6600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   desktop: {fileID: 0}
-  windows:
-  - {fileID: 0}
-  selectedWindow: 1
+  windows: []
+  showDesktop: 0
+  activeWindow: 0
 --- !u!1 &6784937181681146991
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,10 +388,10 @@ RectTransform:
   m_Father: {fileID: 6784937181093481453}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 544, y: 50}
+  m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &6784937181795595251
 CanvasRenderer:
@@ -575,7 +575,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6784937181099279257}
+      - m_Target: {fileID: 6486006838406135611}
         m_MethodName: SetFrontWindow
         m_Mode: 3
         m_Arguments:
@@ -707,7 +707,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6784937181099279257}
+      - m_Target: {fileID: 6486006838406135611}
         m_MethodName: SetFrontWindow
         m_Mode: 3
         m_Arguments:
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6784937181099279257}
+      - m_Target: {fileID: 6486006838406135611}
         m_MethodName: SetFrontWindow
         m_Mode: 3
         m_Arguments:
@@ -971,7 +971,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6784937181099279257}
+      - m_Target: {fileID: 6486006838406135611}
         m_MethodName: SetFrontWindow
         m_Mode: 3
         m_Arguments:
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6784937181099279257}
+      - m_Target: {fileID: 6486006838406135611}
         m_MethodName: SetFrontWindow
         m_Mode: 3
         m_Arguments:
