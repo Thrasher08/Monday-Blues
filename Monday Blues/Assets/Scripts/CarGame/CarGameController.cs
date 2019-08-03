@@ -13,6 +13,7 @@ public class CarGameController : MonoBehaviour
     public PlayerCarScript playerCar;
     public EnemyCarSpwner enemySpawner;
     public DestroyEnemyCars enemyCleanup;
+    public AudioSource audio;
 
     public GameObject failedScreen;
     public Text waitTimerText;
@@ -57,6 +58,7 @@ public class CarGameController : MonoBehaviour
 
         playerCar.Stop();
         enemySpawner.Stop();
+        audio.Play();
         enemyCleanup.DestroyCars();
 
         failedScreen.SetActive(true);
