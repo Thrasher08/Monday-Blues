@@ -398,6 +398,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!223 &1153779788 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 5696069047325217114, guid: 94e7b9c1c21bb5c4f9e374fc55a20e15,
+    type: 3}
+  m_PrefabInstance: {fileID: 5696069048319580438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1411088540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -562,6 +568,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e19379423e1ff404c8c33cec6bfde3df, type: 3}
+--- !u!223 &1411088541 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 7953240445379157279, guid: e19379423e1ff404c8c33cec6bfde3df,
+    type: 3}
+  m_PrefabInstance: {fileID: 1411088540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1659659215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -691,6 +703,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09039ff230220eb4caaffcecef161e69, type: 3}
+--- !u!223 &1659659216 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 7953240445379157279, guid: 09039ff230220eb4caaffcecef161e69,
+    type: 3}
+  m_PrefabInstance: {fileID: 1659659215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &705325948267433148 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 7953240445379157279, guid: 2d813e9b91cdb3844a6af2cac1162974,
+    type: 3}
+  m_PrefabInstance: {fileID: 7464228450681786787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5696069048319580438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1052,6 +1076,31 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6486006838406135611, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: windows.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486006838406135611, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: windows.Array.data[0]
+      value: 
+      objectReference: {fileID: 1153779788}
+    - target: {fileID: 6486006838406135611, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: windows.Array.data[1]
+      value: 
+      objectReference: {fileID: 1659659216}
+    - target: {fileID: 6486006838406135611, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: windows.Array.data[2]
+      value: 
+      objectReference: {fileID: 1411088541}
+    - target: {fileID: 6486006838406135611, guid: 55d33b5d1a9340e43b1413a79f85d29b,
+        type: 3}
+      propertyPath: windows.Array.data[3]
+      value: 
+      objectReference: {fileID: 705325948267433148}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55d33b5d1a9340e43b1413a79f85d29b, type: 3}
 --- !u!114 &6784937182073353640 stripped
@@ -1081,7 +1130,7 @@ PrefabInstance:
     - target: {fileID: 7953240445379157274, guid: 2d813e9b91cdb3844a6af2cac1162974,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7953240445379157279, guid: 2d813e9b91cdb3844a6af2cac1162974,
         type: 3}
