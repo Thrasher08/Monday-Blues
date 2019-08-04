@@ -73,7 +73,10 @@ public class Window_Download : MonoBehaviour
         if (delayDownload >= delayWindow)
         {
             downloading = false;
-            audio.PlayOneShot(clips[0]);
+            if (!failing)
+            {
+                audio.PlayOneShot(clips[0]);
+            }
             failing = true;
         }
     }

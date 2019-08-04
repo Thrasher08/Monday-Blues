@@ -55,6 +55,8 @@ public class Messages : MonoBehaviour
         messageOrder[2].text = messageOrder[1].text;
         messageOrder[1].text = messageOrder[0].text;
         messageOrder[0].text = userResponse.text;
+
+        userResponse.text = "";
     }
 
     public void timeMessage()
@@ -79,11 +81,11 @@ public class Messages : MonoBehaviour
     {
         messageOrder[0].text = "";
         int i = 0;
-        Debug.Log("HELLO");
+
         while (i < dialogue.Length)
         {
             messageOrder[0].text += dialogue[i];
-            Debug.Log("HELLOw");
+
             i++;
 
             yield return new WaitForSeconds(speed);

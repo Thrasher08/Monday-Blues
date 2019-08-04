@@ -11,6 +11,8 @@ public class WindowManager : MonoBehaviour
     public bool showDesktop;
     public int activeWindow;
 
+    public ParticleSystem clickEffect;
+
     private void Start()
     {
         showDesktop = false;
@@ -63,6 +65,9 @@ public class WindowManager : MonoBehaviour
 
         }
 
+        Vector2 mousePosT = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        //Transform mousePos = mousePosT
+        //Instantiate(clickEffect, Input.mousePosition);
         windows[_windowNum].gameObject.SetActive(true);
         SetFrontWindow(_windowNum);
 
