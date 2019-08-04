@@ -21,6 +21,8 @@ public class EmailManager : MonoBehaviour
     public GameObject lockoutScreen;
     public Text lockoutTimerText;
 
+    public AudioSource audio;
+
     [System.Serializable]
     public class Email
     {
@@ -129,6 +131,7 @@ public class EmailManager : MonoBehaviour
         eSubject.text = emails[eIndex].subject;
         eMessage.text = emails[eIndex].message;
 
+        audio.Play();
         replyTimer = replyTime;
     }
 

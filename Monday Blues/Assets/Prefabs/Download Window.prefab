@@ -635,14 +635,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bb058bf580fd9c4bb116fefe4fff27c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDownloadProgress: 300
+  maxDownloadProgress: 120
   downloading: 0
   finishedDownloading: 0
   downloadProgress: 0
   delayDownloadTimer: 0
-  delayWindow: 5
+  delayWindow: 12
   failing: 0
-  failTime: 5
+  failTime: 10
   failTimer: 0
   progressBar: {fileID: 2263264339669858629}
   progressText: {fileID: 769554165790827716}

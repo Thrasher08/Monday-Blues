@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Window_Download : MonoBehaviour
 {
@@ -57,6 +58,9 @@ public class Window_Download : MonoBehaviour
             if (downloadProgress >= maxDownloadProgress)
             {
                 Debug.Log("Success!");
+
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
                 downloading = false;
                 finishedDownloading = true;
             }

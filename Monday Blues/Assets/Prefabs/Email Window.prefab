@@ -1550,7 +1550,7 @@ MonoBehaviour:
   windowIndex: 0
   windowManager: {fileID: 0}
   isRunning: 0
-  replyTime: 10
+  replyTime: 20
   replyTimer: 0
   replyTimerImage: {fileID: 3943790880083570964}
   lockoutTime: 5

@@ -726,7 +726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000015258789}
+  m_AnchoredPosition: {x: 0, y: 0.000030517578}
   m_SizeDelta: {x: 268.13184, y: 150.61731}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3029341121476014262
@@ -1386,6 +1386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e94a210861e1534498ba6d80f10cd4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  windowIndex: 0
+  windowManager: {fileID: 0}
   userResponse: {fileID: 6648355239664932320}
   messageOrder:
   - {fileID: 741484908828535336}
@@ -1410,10 +1412,10 @@ MonoBehaviour:
   lastMIndex: 0
   messageTypingSpeed: 0.05
   waitingForNewMessage: 0
-  newMessageTime: 10
+  newMessageTime: 12
   newMessageTimer: 0
   waitingForResponse: 0
-  responseTime: 10
+  responseTime: 15
   responseTimer: 0
   isLockedOut: 0
   lockoutTime: 5
@@ -1775,11 +1777,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6718347139407018930}
     m_Modifications:
-    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
-        type: 3}
-      propertyPath: m_Name
-      value: Text0 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5321052388841220251, guid: 67279c514e1196c4c991196d61869209,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1905,6 +1902,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
+        type: 3}
+      propertyPath: m_Name
+      value: Text0 (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67279c514e1196c4c991196d61869209, type: 3}
 --- !u!114 &5944177741781852345 stripped
@@ -1932,11 +1934,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6718347139407018930}
     m_Modifications:
-    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
-        type: 3}
-      propertyPath: m_Name
-      value: Text0 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5321052388841220251, guid: 67279c514e1196c4c991196d61869209,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2062,6 +2059,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
+        type: 3}
+      propertyPath: m_Name
+      value: Text0 (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67279c514e1196c4c991196d61869209, type: 3}
 --- !u!114 &7448356673684426214 stripped
@@ -2089,11 +2091,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6718347139407018930}
     m_Modifications:
-    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
-        type: 3}
-      propertyPath: m_Name
-      value: Text0 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5321052388841220251, guid: 67279c514e1196c4c991196d61869209,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2219,6 +2216,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
+        type: 3}
+      propertyPath: m_Name
+      value: Text0 (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67279c514e1196c4c991196d61869209, type: 3}
 --- !u!114 &8891150932054207408 stripped
@@ -2246,11 +2248,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6718347139407018930}
     m_Modifications:
-    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
-        type: 3}
-      propertyPath: m_Name
-      value: Text0 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5321052388841220251, guid: 67279c514e1196c4c991196d61869209,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2376,6 +2373,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
+        type: 3}
+      propertyPath: m_Name
+      value: Text0 (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67279c514e1196c4c991196d61869209, type: 3}
 --- !u!114 &504372200225413116 stripped
@@ -2403,11 +2405,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6718347139407018930}
     m_Modifications:
-    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
-        type: 3}
-      propertyPath: m_Name
-      value: Text0 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5321052388841220251, guid: 67279c514e1196c4c991196d61869209,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2533,6 +2530,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
+        type: 3}
+      propertyPath: m_Name
+      value: Text0 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67279c514e1196c4c991196d61869209, type: 3}
 --- !u!224 &796069620895348555 stripped
@@ -2560,11 +2562,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6718347139407018930}
     m_Modifications:
-    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
-        type: 3}
-      propertyPath: m_Name
-      value: Text0
-      objectReference: {fileID: 0}
     - target: {fileID: 5321052388841220251, guid: 67279c514e1196c4c991196d61869209,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2689,6 +2686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2858386031039261862, guid: 67279c514e1196c4c991196d61869209,
+        type: 3}
+      propertyPath: m_Name
+      value: Text0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67279c514e1196c4c991196d61869209, type: 3}

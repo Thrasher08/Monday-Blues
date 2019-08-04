@@ -39,6 +39,8 @@ public class Messages : MonoBehaviour
     public GameObject failedScreen;
     public Text waitTimerText;
 
+    public AudioSource audio;
+
 
     // Start is called before the first frame update
     void Start()
@@ -181,6 +183,8 @@ public class Messages : MonoBehaviour
 
         responseTimer = 0.0f;
         newMessageTimer = 0.0f;
+
+        audio.Play();
 
         typingScript.clearResponse();
     }

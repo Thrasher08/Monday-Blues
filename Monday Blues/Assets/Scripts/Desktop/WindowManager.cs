@@ -17,6 +17,18 @@ public class WindowManager : MonoBehaviour
     {
         showDesktop = false;
         activeWindow = 0;
+
+        for (int i = 0; i < windows.Count; i++)
+        {
+            if (i == 0)
+            {
+                windows[i].sortingOrder = 1;
+            }
+            else
+            {
+                windows[i].sortingOrder = -1;
+            }
+        }
     }
 
     public void SetFrontWindow(int _windowNum)
