@@ -8,6 +8,9 @@ public class Typing : MonoBehaviour
 {
     // Start is called before the first frame update#
 
+
+    public WindowManager windowManager;
+
     public string response;
     public TextMeshProUGUI inputResponse;
     public TextMeshProUGUI responseShadow;
@@ -33,6 +36,13 @@ public class Typing : MonoBehaviour
     void Update()
     {
         //Debug.Log(ableToType);
+
+        if (windowManager.activeWindow != messagesScript.windowIndex)
+        {
+            //not active window, cannot type
+            return;
+        }
+
         if (messagesScript.waitingForResponse == true)
         {
             if (responseShadow.text != response)
