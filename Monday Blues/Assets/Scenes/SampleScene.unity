@@ -566,6 +566,106 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2543086458555946074, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543086458555946074, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543086458555946074, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543086458555946074, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698061728921107791, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698061728921107791, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698061728921107791, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698061728921107791, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458790475286805064, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458790475286805064, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458790475286805064, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458790475286805064, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 891770390638962207, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 891770390638962207, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 891770390638962207, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 891770390638962207, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119027880167195320, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119027880167195320, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119027880167195320, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119027880167195320, guid: e19379423e1ff404c8c33cec6bfde3df,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e19379423e1ff404c8c33cec6bfde3df, type: 3}
 --- !u!223 &1411088541 stripped
