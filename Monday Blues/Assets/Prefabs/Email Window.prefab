@@ -264,11 +264,11 @@ RectTransform:
   m_Children:
   - {fileID: 1608404929122077121}
   m_Father: {fileID: 6003013126759427856}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -107, y: -115}
+  m_AnchoredPosition: {x: -150, y: -115}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5108886425527617081
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11343660318736754}
+      - m_Target: {fileID: 6924293604434965724}
         m_MethodName: confirmEmail
         m_Mode: 1
         m_Arguments:
@@ -397,11 +397,11 @@ RectTransform:
   m_Children:
   - {fileID: 1362974209803840912}
   m_Father: {fileID: 6003013126759427856}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 95, y: -115}
+  m_AnchoredPosition: {x: 150, y: -115}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6277890510240469741
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11343660318736754}
+      - m_Target: {fileID: 6924293604434965724}
         m_MethodName: denyEmail
         m_Mode: 1
         m_Arguments:
@@ -969,6 +969,81 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &5523059178941932502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4338783444566142893}
+  - component: {fileID: 8122841529978366279}
+  - component: {fileID: 3943790880083570964}
+  m_Layer: 5
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4338783444566142893
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5523059178941932502}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6003013126759427856}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -115}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8122841529978366279
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5523059178941932502}
+  m_CullTransparentMesh: 0
+--- !u!114 &3943790880083570964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5523059178941932502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.8152909, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 0
+  m_FillOrigin: 2
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &5645611955485735672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +1134,6 @@ GameObject:
   - component: {fileID: 6003013126759427856}
   - component: {fileID: 7971987875776826925}
   - component: {fileID: 8496396180106681037}
-  - component: {fileID: 11343660318736754}
   m_Layer: 5
   m_Name: Email
   m_TagString: Untagged
@@ -1083,6 +1157,7 @@ RectTransform:
   - {fileID: 4623171567420394924}
   - {fileID: 8934626464980194405}
   - {fileID: 4713731103140139943}
+  - {fileID: 4338783444566142893}
   - {fileID: 5296830552459664217}
   - {fileID: 5126330764999838544}
   m_Father: {fileID: 5775230105643871423}
@@ -1131,60 +1206,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &11343660318736754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6269710522111471645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3c19fbb8fe9b554ebe72ae6ce69c615, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRunning: 0
-  waitTime: 5
-  waitTimer: 0
-  failedScreen: {fileID: 7239568268451590488}
-  waitTimerText: {fileID: 7942370095453814699}
-  emails:
-  - name: Larry Fishmen
-    subject: Toner Crisis
-    message: Dear Sir/Madam,  We would like to place a new order for printer ink as
-      we are running low and on a tight deadline. Please ship within the next few
-      minutes
-    confirm: 1
-  - name: Wasta Thyme
-    subject: Unproductive Employee
-    message: UNPRODUCTIVE EMPLOYEES? In my <INSERT COMPANY>?! It's more likely then
-      you think!
-    confirm: 0
-  - name: Ernest Leveign
-    subject: UPCOMING MEETING
-    message: You have been invited to attend an upcoming meeting scheduled for 1:15PM
-      Thursday. Please confirm attendance
-    confirm: 1
-  - name: Bernies Smith
-    subject: More INK
-    message: We were incredibly pleased with the quality of your product and would
-      like to order another shipment
-    confirm: 1
-  - name: Cory Adams
-    subject: Keep 'Em Coming
-    message: Ink is really good at helping us print things, please send some more
-      or we're doomed
-    confirm: 1
-  - name: Lisa West
-    subject: Too Much Ink
-    message: Please stop sending us ink, we have too much. We can't afford to keep
-      paying for more ink, if you keep sending us more my company will go under. PLEASE
-      I HAVE A FAMILY TO FEED!
-    confirm: 0
-  eName: {fileID: 3338318932775245098}
-  eSubject: {fileID: 4070420427357266758}
-  eMessage: {fileID: 6728538400348606438}
-  eIndex: 0
 --- !u!1 &7239568268451590488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,7 +1223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5128130460823554794
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1425,6 +1446,7 @@ GameObject:
   - component: {fileID: 7953240445379157279}
   - component: {fileID: 7953240445379157272}
   - component: {fileID: 7953240445379157273}
+  - component: {fileID: 6924293604434965724}
   m_Layer: 5
   m_Name: Email Window
   m_TagString: Untagged
@@ -1513,6 +1535,66 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &6924293604434965724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7953240445379157274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c19fbb8fe9b554ebe72ae6ce69c615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowIndex: 0
+  windowManager: {fileID: 0}
+  isRunning: 0
+  replyTime: 10
+  replyTimer: 0
+  replyTimerImage: {fileID: 3943790880083570964}
+  lockoutTime: 5
+  lockoutTimer: 0
+  lockoutScreen: {fileID: 7239568268451590488}
+  lockoutTimerText: {fileID: 7942370095453814699}
+  emails:
+  - name: Larry Fishmen
+    subject: Toner Crisis
+    message: Dear Sir/Madam,  We would like to place a new order for printer ink as
+      we are running low and on a tight deadline. Please ship within the next few
+      minutes
+    confirm: 1
+  - name: Wasta Thyme
+    subject: Unproductive Employee
+    message: UNPRODUCTIVE EMPLOYEES? In my <INSERT COMPANY>?! It's more likely then
+      you think!
+    confirm: 0
+  - name: Ernest Leveign
+    subject: UPCOMING MEETING
+    message: You have been invited to attend an upcoming meeting scheduled for 1:15PM
+      Thursday. Please confirm attendance
+    confirm: 1
+  - name: Bernies Smith
+    subject: More INK
+    message: We were incredibly pleased with the quality of your product and would
+      like to order another shipment
+    confirm: 1
+  - name: Cory Adams
+    subject: Keep 'Em Coming
+    message: Ink is really good at helping us print things, please send some more
+      or we're doomed
+    confirm: 1
+  - name: Lisa West
+    subject: Too Much Ink
+    message: Please stop sending us ink, we have too much. We can't afford to keep
+      paying for more ink, if you keep sending us more my company will go under. PLEASE
+      I HAVE A FAMILY TO FEED!
+    confirm: 0
+  eName: {fileID: 3338318932775245098}
+  eSubject: {fileID: 4070420427357266758}
+  eMessage: {fileID: 6728538400348606438}
+  eIndex: 0
+  lastEIndex: 0
 --- !u!1 &7953240446719954160
 GameObject:
   m_ObjectHideFlags: 0

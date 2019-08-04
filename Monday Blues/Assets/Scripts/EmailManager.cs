@@ -6,13 +6,20 @@ using TMPro;
 
 public class EmailManager : MonoBehaviour
 {
+
+    public int windowIndex;
+    public WindowManager windowManager;
+
     public bool isRunning;
 
-    public float waitTime;
-    public float waitTimer;
+    public float replyTime;
+    public float replyTimer;
+    public Image replyTimerImage;
 
-    public GameObject failedScreen;
-    public Text waitTimerText;
+    public float lockoutTime;
+    public float lockoutTimer;
+    public GameObject lockoutScreen;
+    public Text lockoutTimerText;
 
     [System.Serializable]
     public class Email
@@ -36,11 +43,44 @@ public class EmailManager : MonoBehaviour
     private void Start()
     {
         eRandomiser();
-        eName.text = emails[eIndex].name;
-        eSubject.text = emails[eIndex].subject;
-        eMessage.text = emails[eIndex].message;
 
-        failedScreen.SetActive(false);
+        lastEIndex = -1;
+
+        NextEmail();
+
+        lockoutScreen.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (isRunning == true)
+        {
+            replyTimer = replyTimer - Time.deltaTime;
+            replyTimerImage.fillAmount = replyTimer / replyTime;
+
+            if (replyTimer <= 0.0f)
+            {
+                Lockout();
+            }
+        }
+        else if (isRunning == false)
+        {
+
+            lockoutTimer = lockoutTimer - Time.deltaTime;
+            lockoutTimerText.text = Mathf.CeilToInt(lockoutTimer).ToString() + "s Left!";
+
+            if (lockoutTimer <= 0.0f)
+            {
+                
+                isRunning = true;
+
+                NextEmail();
+
+                lockoutScreen.SetActive(false);
+
+            }
+        }
+
     }
 
     public void eRandomiser()
@@ -63,7 +103,7 @@ public class EmailManager : MonoBehaviour
         } else
         {
             Debug.Log("INCORRECT CONFIRM");
-            FailedEmail();
+            Lockout();
         }
     }
 
@@ -77,7 +117,7 @@ public class EmailManager : MonoBehaviour
         else
         {
             Debug.Log("INCORRECT DENY");
-            FailedEmail();
+            Lockout();
         }
     }
 
@@ -88,36 +128,20 @@ public class EmailManager : MonoBehaviour
         eName.text = emails[eIndex].name;
         eSubject.text = emails[eIndex].subject;
         eMessage.text = emails[eIndex].message;
+
+        replyTimer = replyTime;
     }
 
-    public void FailedEmail ()
+    public void Lockout ()
     {
         isRunning = false;
 
-        failedScreen.SetActive(true);
+        lockoutScreen.SetActive(true);
 
-        waitTimer = waitTime;
+        lockoutTimer = lockoutTime;
+
+        windowManager.SetFrontWindow(windowIndex);
     }
 
-    void Update()
-    {
-        if (isRunning == false)
-        {
-
-            waitTimer = waitTimer - Time.deltaTime;
-            waitTimerText.text = Mathf.CeilToInt(waitTimer).ToString() + "s Left!";
-
-            if (waitTimer <= 0.0f)
-            {
-
-
-                isRunning = true;
-
-                NextEmail();
-
-                failedScreen.SetActive(false);
-
-            }
-        }
-    }
+    
 }
