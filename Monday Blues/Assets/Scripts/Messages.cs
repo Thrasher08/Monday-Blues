@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class Messages : MonoBehaviour
 {
+
+    public int windowIndex;
+    public WindowManager windowManager;
+
     public TextMeshProUGUI userResponse;
     public List<TextMeshProUGUI> messageOrder;
 
@@ -234,6 +238,8 @@ public class Messages : MonoBehaviour
         waitingForResponse = false;
 
         failedScreen.SetActive(true);
+
+        windowManager.SetFrontWindow(windowIndex);
 
         typingScript.clearResponse();
 
