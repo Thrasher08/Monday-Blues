@@ -153,7 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carSprites:
-  - {fileID: 21300000, guid: 9709e96317b80e049a430c7ead68f6c2, type: 3}
-  - {fileID: 21300000, guid: 35a54337142a0964fa41f7b43095b8fa, type: 3}
-  - {fileID: 21300000, guid: d084598d6afabca4993d15b76adc1a0b, type: 3}
+  - {fileID: 21300000, guid: caf0b7a3b5e07e240bdc063a046d44b5, type: 3}
+  - {fileID: 21300000, guid: 1dfbb9b08f91b6d489f139c1dc1756b1, type: 3}
+  - {fileID: 21300000, guid: bce9f841674c6e54d84c99a8d8d50958, type: 3}
+  - {fileID: 21300000, guid: 601352a604d098f4f9cb4806a5ed2fae, type: 3}
   carImage: {fileID: 1200415433791018430}

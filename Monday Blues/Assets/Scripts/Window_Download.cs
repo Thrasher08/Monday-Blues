@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Window_Download : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class Window_Download : MonoBehaviour
 
     public Image progressBar;
 
-    public Text progressText;
+    public TextMeshProUGUI progressText;
 
     public AudioSource audio;
     public AudioClip[] clips;
